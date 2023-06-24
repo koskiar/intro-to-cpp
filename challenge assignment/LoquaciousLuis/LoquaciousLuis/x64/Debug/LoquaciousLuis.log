@@ -1,0 +1,25 @@
+﻿  luis.cpp
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(32,22): error C2589: 'int': illegal token on right side of '::'
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(32,10): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vector(480): message : see declaration of 'std::vector'
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(32,46): error C2514: 'std::vector': class template cannot be constructed
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vector(480): message : see declaration of 'std::vector'
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(35,33): error C2663: 'std::vector<_Ty,_Alloc>::_Unchecked_begin': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(35,33): error C2663: 'std::vector<_Ty,_Alloc>::_Unchecked_end': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(35,42): error C3536: '<begin>$L0': cannot be used before it is initialized
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(35,42): error C3536: '<end>$L0': cannot be used before it is initialized
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(35,40): error C2100: illegal indirection
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(36,22): error C2677: binary '==': no global operator found which takes type 'std::vector' (or there is no acceptable conversion)
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(37,24): error C2064: term does not evaluate to a function taking 1 arguments
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(45,18): error C2440: 'return': cannot convert from 'int' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(45,18): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(81,52): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(93,47): error C2676: binary '==': '_Ty' does not define this operator or a conversion to a type acceptable to the predefined operator
+          with
+          [
+              _Ty=std::vector<bool,std::allocator<bool>>
+          ]
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(94,69): error C2660: 'get_name_from_index': function does not take 1 arguments
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(27,13): message : see declaration of 'get_name_from_index'
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(95,72): error C2660: 'get_name_from_index': function does not take 1 arguments
+C:\Users\thear\Downloads\LoquaciousLuis\LoquaciousLuis\luis.cpp(27,13): message : see declaration of 'get_name_from_index'
